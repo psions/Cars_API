@@ -1,5 +1,4 @@
 from django.db import models
-
 # Create your views here.
 class Car(models.Model):
     make = models.CharField(max_length=255)
